@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="author" content="JP">
+    <meta name="description" content="página de educación">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg id="inicio" width="100" height="50" viewbox="0 0 100 50">
+        <image xlink:href="img/logoJP.svg" x="-4" y="-4" width="120" height="60"/>
+      </svg>
+      <h1>Hoja de Vida</h1>
+    </header>
+    <section>
+      <article class="datosPersonales">
+        <h2>Nombres:</h2>
+          <h3>Jesús Gabriel</h3>
+        <h2>Apellidos:</h2>
+         <h3>Pérez Siculaba</h3>
+        <h2>Fecha y lugar de nacimiento: </h2>
+          <h3>16 de mayo de 1995 Madrid, Cundinamarca</h3>
+      </article>
+      <article class="navegacion">
+        <h2>Enlaces de Menú:</h2>
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="#inicio">Educación</a>
+          <a href="experiencia.html">Experiencia Laboral</a>
+        </nav>
+      </article>
+      <article class="tabla_estudios">
+        <h2>Educación:</h2>
+        <table border="1" cellpadding="7" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Educación</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2005</td>
+              <td>Básica Primaria</td>
+              <td>Instituto Salesiano San José</td>
+              <td>Mosquera</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>2011</td>
+              <td>Bachiller</td>
+              <td>Instituto Salesiano San José</td>
+              <td>Mosquera</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>2018</td>
+              <td>Profesional</td>
+              <td>Universidad de Los Andes</td>
+              <td>Bogotá D.C.</td>
+              <td>Sí</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="agregarEstudios">
+        <h3>Agregar Estudios</h3>
+        <form>
+          <fieldset>
+            <legend>Agrega un estudio</legend>
+            <p>
+              <label for="anio"><strong>Año:</strong></label>
+              <select id="anio">
+                <option>2000</option><option>2001</option><option>2002</option>
+                <option>2003</option><option>2004</option><option>2005</option>
+                <option>2006</option><option>2007</option><option>2008</option>
+                <option>2009</option><option>2010</option><option>2011</option>
+                <option>2012</option><option>2013</option><option>2014</option>
+                <option>2015</option><option>2016</option><option>2017</option>
+                <option >2018</option>
+              </select>
+            </p>
+            <p>
+              <label for="educacion"><strong>Educación:</strong></label>
+              <input type="text" id="educacion" name="educacion" placeholder="Escribir el tipo de educación" size="30">
+            </p>
+            <p>
+              <label for="instituto"><strong>Institución:</strong></label>
+              <input type="text" id="instituto" name="Institucion" placeholder="Escribir el nombre de la institución" size="30">
+            </p>
+            <p>
+              <label for="lugar"><strong>Lugar:</strong></label>
+              <textarea id="lugar" name="lugar" rows="2" cols="36" placeholder="Escribir el lugar de finalización de estudios"></textarea>
+            </p>
+            <p>
+              <input type="submit" name="Enviar" value="Enviar">
+            </p>
+          </fieldset>
+        </form>
+      </article>
+      <footer>
+        <p>Para mayor información contactarse a:<br> jesusgperez16@gmail.com | 3164244943 | av14 no 10 09</p>
+      </footer>
+  </body>
+</html>
